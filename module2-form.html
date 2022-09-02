@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1{
+            color: red;
+            background: rgb(0, 183, 255);
+            text-align: center;
+        }
+        .main{
+            height: 570px;
+            width: 100%;
+            background: rgb(134, 185, 205);
+        }
+         h3{
+            color: red;
+        }
+        .u-p{
+            margin-left: -250px;
+        }
+        .p-p{
+            margin-left: -250px;
+        }
+        .p-t{
+            padding-left: 150px;
+        } 
+        table{
+            justify-content: center;
+            padding-left: 620px;
+        }
+        .btn{
+            text-align: center;
+            color: white;
+        }
+        .btn input{
+            background-color: rgb(0, 183, 255);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="POST">
+        <h1>Individual Registration</h1>
+        <div class="main">
+            <h3>User Particulars</h3>
+            <table>
+                <tr>
+                    <td><label for="login">Login Id</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                     <td><label for="pass">Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="cpass">Confirm Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+            </table>
+            <h3>Persional Particulars</h3>
+        <div class="p-p">
+            <table>
+                <tr>
+                    <td><label for="salutation">Salutation</label></td>
+                    <td><select name="salutation"><option value="Select">Select</option></select></td>
+                    <td class="p-t"><label for="fname">First Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="mname">Middle Name</label></td>
+                    <td><input type="text"></td>
+                    <td class="p-t"><label for="last Name">Last Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Residental Status</label></td>
+                    <td><select name="rstatus"><option value="">Select</option></select></td>
+                    <td class="p-t"><label for="">Country</label></td>
+                    <td><select name="country"><option value="">Select</option></select></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email Id</label></td>
+                    <td><input type="email"></td>
+                    <td class="p-t"><label for="phone">Mobile Number</label></td>
+                    <td><input type="text"></td>
+            </table>
+            </div>
+                <h3>Account Particulars</h3>
+                <div class="u-p">
+            <table>
+                <tr>
+                    <td><label for="acno">15 Digit Account NO</label></td>
+                    <td ><input type="taxt"></td>
+                    <td class="p-t"><label for="nname">Nick Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="ftransfer">Fund Transfer</label></td>
+                    <td><select name="fund"><option value="">Select</option></select></td>
+                </tr>
+            </table>
+        </div>
+            <h3>DELCARATION</h3>
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolorum vel voluptatibus quo cupiditate excepturi dicta consectetur eos, alias quis ipsum labore inventore asperiores fugiat nihil atque commodi ut obcaecati reprehenderit sunt optio. Corrupti vitae eligendi ipsam, dolor pariatur aliquam officia rerum facere repellat repudiandae perspiciatis officiis modi id asperiores labore commodi sapiente est quod tempora. Consectetur architecto voluptate eaque perspiciatis, minima inventore, a similique quo at explicabo distinctio expedita veritatis aperiam magnam et animi vitae fugiat odio sequi tempora laudantium ipsum dicta! Consequatur, officiis similique quia consectetur facere blanditiis accusantium ex, velit animi, sequi beatae odit tempora ab perferendis?</P>
+        <div class="btn">
+        <input type="submit">
+        <input type="reset">   
+        </div>
+        </div>
+    </form>
+</body>
+</html>
