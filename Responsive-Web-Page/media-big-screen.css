@@ -1,0 +1,193 @@
+@media screen and (min-device-width: 1024px) and (max-device-width: 1365px){
+
+                                                    /* Main-Navigation */
+
+    .main-nav-logo img{
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 4%;
+    }
+
+                                                    /* Dashboard */
+
+    .dashboard img{
+    height: 500px;
+    }
+    .dashboard h1{
+    font-size: 50px;
+    padding-top: 17%;
+    }
+    .dashboard p{
+    padding-top: 1%;
+    font-size: 18px;
+    width: 45%;
+    height: 60px;
+    line-height: 1.4;
+    word-spacing: 5px;
+    overflow: hidden;
+    }
+    .dashboard input{
+    height: 50px;
+    width: 8rem;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+                                                        /* CauseText-Banner */ 
+
+    .cause-text h1{
+    font-size: 45px;
+    }
+
+                                                        /* Charity-Blocks */
+
+    .charity-img-1,.charity-img-2,.charity-img-3{
+    margin: 0 0 10% 26px;
+    height: 445px;
+    width: 30%;
+    }
+    .charity-system-main .main-text a{
+    font-size: 24px;
+    }
+    .charity-system-main .small-text{
+    font-size: 16px;
+    line-height: 1.4;
+    }
+    .charity-system-main input{
+    height: 30px;
+    width: 5rem;
+    font-size: 12px;
+    }
+    .charity-system-main .goal-price{
+    margin:-40px 0 0 13%;
+    font-size: 16px;
+    }
+    .charity-system-main .goal-text{
+    margin: -15px 0 0 13%;
+    font-size: 16px;
+    }
+    .charity-system-main .raised-price{
+    margin:-40px 0 0 22%;
+    font-size: 16px;
+    }
+    .charity-system-main .raised-text{
+    margin: -15px 0 0 22%;
+    font-size: 16px;
+    }
+
+                                                        /* Support-Dashboard */
+
+    .support-dash{
+    margin: 0 0 0 2%;
+    }
+    .support-dash img{
+    height: 400px;
+    }
+    .support-text h1{
+    font-size: 45px;
+    }
+    .support-text{
+    margin: 3% 0 0 8%;
+    }
+    .support-text .support-text-1{
+    font-size: 16px;
+    width: 90%;
+    }
+    .support-text .support-text-2{
+    font-size: 16px;
+    width: 90%;
+    }
+
+                                                        /* Serve-text */
+
+    .serve-text{
+    margin: 5% 0 0 0;
+    text-align: center;
+    }
+    .serve-text h1{
+    font-size: 45px;
+    color: #301a22;
+    }
+    .serve-text p{
+    color: rgb(106, 96, 99);
+    text-align: center;
+    margin-top: 1%;
+    line-height: 1.4;
+    font-size: 16px;
+    }
+
+                                                        /* Health-Care-Dashboard */
+
+    .health-care{
+        margin: 5% 0 0 -2%;
+        width: 100%;
+    }
+    .food-care img,.medicine-care img,.education-care img{
+        margin:0 0 10% 45%;
+        height: 85px;
+    }
+    .health-care a{
+        font-size: 24px;
+        margin-left: -40%;
+    }
+    .health-care p{
+        width: 80%;
+        line-height: 1.4;
+        font-size: 16px;
+        margin: 7% 0 10% 15%;
+    }
+    .education-care a{
+        margin-left: -28%;
+    }
+    .need-help img{
+        height: 600px;
+    }
+    .need-help-sub{
+        height: 450px;
+        width: 40%;
+        margin: 6% 0 0 52%;
+    }
+    .need-help-sub a{
+        font-size: 45px;
+        padding: 15% 0 0 9%;
+    }
+    .need-help-sub p{
+        margin: 42% 0 0 9%;
+        font-size: 16px;
+        width: 85%;
+    }
+    .need-help-sub input{
+        height: 50px;
+        width: 9rem;
+        margin: 9% 0 0 10%;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+                                                            /* Join-Dashboard */
+
+    .join-with-us{
+        margin-top: 65%;
+    }
+    .join-text h1{
+        font-size: 45px;
+        margin: 4% 0 0 5%;
+    }
+    .join-text p{
+        width: 30%;
+        font-size: 16px;
+        margin-left: 5%;
+    }
+    .join-text input{
+        height: 50px;
+        width: 7rem;
+        margin-left: 5%;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .join-with-us .join-img-1{
+        margin-left: -55%;
+    }
+}

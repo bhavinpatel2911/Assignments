@@ -1,0 +1,346 @@
+@media screen and (min-device-width: 0px) and (max-device-width: 767px) { 
+
+                                                            /* Small Navigation  */
+
+    .small-nav .logo{
+        font-size: 12px;
+        margin-left: 0%;
+    }
+    .small-nav .logo ul li{
+        padding-right: 5px;
+    }
+    .small-nav-icon{
+        margin-top: -25px;
+    }
+    .small-nav-icon ul{
+        font-size: 11px;
+        margin-right: 15px;
+    }
+
+                                                            /* Main-Navigation */
+
+    .main-nav{
+        height: 40px;
+    }
+    .main-nav-logo img{
+        height: 23px;
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+    .main-nav-option{
+        margin-right: 0%;
+        margin-top: 1%;
+    }
+    .main-nav-option ul li{
+        padding-left: 5px;
+    }
+    .main-nav-option ul li a{
+        font-size: 13px;
+    }
+    .main-nav-option ul li a input{
+        margin-top: -10px;
+        height: 25px;
+        width: 5rem;
+        font-size: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+                                                            /* Dashboard */
+
+    .dashboard img{
+        height: 230px;
+    }
+    .dashboard h1{
+        font-size: 20px;
+        padding-top: 20%;
+    }
+    .dashboard p{
+        padding-top: 1%;
+        font-size: 12px;
+        width: 50%;
+        height: 29px;
+        line-height: 12px;
+        overflow: hidden;
+    }
+    .dashboard input{
+        height: 30px;
+        width: 5rem;
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+                                                             /* CauseText-Banner */
+
+    .cause-text{
+        margin-top: 17%;
+    }
+    .cause-text h1{
+        font-size: 20px;
+    }
+
+
+                                                             /* Charity-Blocks */
+
+    .charity-system-main{
+        display: inline-block;
+        margin-top: 10%;
+        height: 940px;
+        width: 70%;
+        margin-left: 20%;
+    }
+    .charity-img-1 img,.charity-img-2 img,.charity-img-3 img{
+        height: 130px;
+        width: 100%;
+    }
+    .charity-img-1,.charity-img-2,.charity-img-3{
+       margin: 0 0 10% 0%;
+       width: 85%;
+       height: 290px;
+    }
+    .charity-system-main .main-text a{
+        font-size: 18px;
+    }
+    .charity-system-main .small-text{
+        font-size: 12px;
+        margin: 7% 0 0 3%;
+        line-height: 15px;
+        word-spacing: 10px;
+    }
+    .charity-system-main input{
+        height: 20px;
+        width: 4rem;
+        font-size: 11px;
+        margin: 7% 0 3% 3%;
+    }
+    .charity-system-main .goal-price{
+        margin:-35px 0 0 25%;
+        font-size: 12px;
+    }
+    .charity-system-main .goal-text{
+        margin: -20px 0 0 25%;
+        font-size: 12px;
+    }
+    .charity-system-main .raised-price{
+        margin:-35px 0 0 42%;
+        font-size: 12px;
+    }
+    .charity-system-main .raised-text{
+        margin: -20px 0 0 42%;
+        font-size: 12px;
+    }
+                                                            /* Support-Dashboard */
+    .support-dash{
+        display: inline-block;
+        margin: 20% 4% 0 12%;
+    }
+    .support-dash img{
+        height: 250px;
+        width: 90%;
+    }
+    .support-text h1{
+        font-size: 20px;;
+    }
+    .support-text{
+        margin: 5% 0 0 2%;
+    }
+    .support-text .support-text-1{
+        font-size: 14px;
+        line-height: 1.4;
+        width: 90%;
+    }
+    .support-text .support-text-2{
+        font-size: 12px;
+        line-height: 1.4;
+        width: 90%;
+    }
+    .support-text input{
+        height: 25px;
+        width: 5rem;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+                                                    /* Serve-text */
+    .serve-text{
+        margin: 15% 0 10% 0;
+     }
+    .serve-text h1{
+        font-size: 20px;
+    }
+    .serve-text p{
+        font-size: 12px;
+    }
+
+                                                    /* Health-Care-Dashboard */
+
+    .health-care{
+        display: inline-block;
+        margin: 5% 0 0 20%;
+        width: 70%;
+    }
+    .food-care img,.medicine-care img,.education-care img{
+        margin:0 0 10% 30%;
+        height: 60px;
+    }
+    .health-care a{
+        font-size: 18px;
+        margin-left: -40%;
+    }
+    .health-care p{
+        width: 60%;
+        text-align: center;
+        line-height: 1.2;
+        font-size: 12px;
+        margin: 7% 0 10% 10%;
+    }
+    .education-care a{
+        margin-left: -30%;
+    }
+
+                                                    /* Need-Help_Dashboard */
+
+    .need-help img{
+        height: 270px;
+    }
+    .need-help-sub{
+        height: 230px;
+        width: 90%;
+        margin: 6% 0 0 5%;
+    }
+    .need-help-sub a{
+        font-size: 20px;
+        padding: 5% 0 0 20%;
+    }
+    .need-help-sub p{
+        margin: 17% 0 0 9%;
+        font-size: 14px;
+        width: 85%;
+        line-height: 1.2;
+    }
+    .need-help-sub input{
+        height: 30px;
+        width: 7rem;
+        margin: 6% 0 0 10%;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+                                                    /* Join-Dashboard */
+
+    .join-with-us{
+        display: inline-block;
+        width: 100%;
+        height: 870px;
+    }
+    .join-with-us .join-img-1 img{
+        margin: 8% 0 0 37%;
+        height: 250px;
+        width: 57%;
+    }
+    .join-with-us .join-img-2 img{
+        margin: 5% 0 0 8%;
+        height: 280px;
+        width: 83%;
+    }
+    .join-text h1{
+        font-size: 20px;
+        margin: 20% 0 0 33%;
+    }
+    .join-text p{
+        width: 80%;
+        font-size: 12px;
+        line-height: 1.2;
+        margin: 4% 0 0 10%;
+    }
+    .join-text input{
+        height: 25px;
+        width: 5rem;
+        margin: 4% 0 0 35%;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+                                                            /* Footer*/
+
+    .footer-main{
+        display: inline-block;
+        height: 750px;
+    }
+    .footer-main .footer-sub-1{
+        margin: 5% 0 0 12%;
+    }
+    .footer-sub-1 img{
+        height: 30px;
+    }
+    .footer-main .footer-sub-1 p{
+        width: 90%;
+        font-size: 12px;
+    }
+    .footer-sub-icon ul li{
+        font-size: 14px;
+    }
+    .footer-sub-2{
+        margin: 10% 0 0 12%;
+    }
+    .footer-sub-2 .footer-heading,.footer-sub-3 .footer-heading,.footer-sub-4 .footer-heading{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .footer-sub-2-list{
+        margin-top: 10%;
+    }
+    .footer-sub-2-list ul li{
+        margin-bottom: 3%;
+    }
+    .footer-sub-2-list ul li a{
+        font-size: 14px;
+    }
+    .footer-sub-3{
+        margin: 5% 0 0 12%;
+    }
+    .footer-sub-4{
+        margin: 5% 0 0 12%;
+    }
+    .footer-sub-4 .text{
+        width: 85%;
+        font-size: 14px;
+    }
+    .footer-sub-4 input{
+        height: 30px;
+        width: 15rem;
+        font-size: 12px;
+    }
+    .footer-sub-4 button{
+        height: 31px;
+        width: 2rem;
+        margin-left: -9%;
+    }
+    .footer-sub-4 button i{
+        font-size: 12px;
+        padding: 10% 15%;
+    }
+    .last-footer{
+        height: 50px;
+        background: rgb(39, 27, 40);
+        margin: 0% 0 0 -50%;
+    }
+    .last-footer p{
+        font-size: 14px;
+    }
+    .last-footer i{
+        position: fixed;
+        bottom: 10px;
+        margin: 0px 0 0 132%;
+        border-radius: 50px;
+        background: #C30047;
+        height: 50px;
+        width: 50px;
+        color: white;
+        padding: 15px 20px;
+        cursor: pointer;
+    }
+}
+

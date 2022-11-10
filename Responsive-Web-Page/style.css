@@ -1,0 +1,546 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+                                                                    /* Small-NAvigation */
+
+.small-nav{
+    height: 40px;
+    width: 100%;
+    background: #C30047;
+}
+.small-nav .logo{
+    display: flex;
+    line-height: 40px;
+    color: white;
+    font-size: 15px;
+    margin-left: 4%;
+}
+.small-nav .logo ul{
+    display: flex;
+    list-style: none;
+}
+.small-nav .logo ul li{
+    padding-right: 20px;
+}
+.small-nav-icon{
+    display: flex;
+    float: right;
+    margin-top: -30px;
+}
+.small-nav-icon ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 85px;
+}
+.small-nav-icon ul li{
+    padding-left: 20px;
+}
+.small-nav-icon ul li:hover{
+    cursor: pointer;
+    color: white;
+    transition: 0.9s;
+    transform: rotateX(180deg);
+}
+
+                                                                /* Main-Navigation */
+
+.main-nav{
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    background: white;
+    z-index: 1;
+}
+.main-nav-logo img{
+    margin-top: 1%;
+    margin-left: 4%;
+}
+.main-nav-option{
+    float: right;
+    display: flex;
+    margin-right: 7%;
+}
+.main-nav-option ul{
+    display: flex;
+    margin-top: -30px;
+    list-style: none;
+}
+.main-nav-option ul li{
+    padding-left: 30px;
+}
+.main-nav-option ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #301a22;
+}
+.main-nav-option ul li a:hover{
+    color: #C30047;
+}
+.main-nav-option ul li a input{
+    border-radius: 50px;
+    border: 0ch;
+    margin-top: -12px;
+    background: #C30047;
+    color: white;
+    height: 40px;
+    width: 8rem;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+                                                                /* Dashboard */
+
+.dashboard img{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: 0;
+}
+.dashboard h1{
+    font-size: 65px;
+    padding-left: 7%;
+    padding-top: 17%;
+}
+.dashboard p{
+    padding-left: 7%;
+    padding-top: 1%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.dashboard h1,p{
+    position: relative;
+    color: white;
+}
+.dashboard input{
+    position: relative;
+    margin-left: 7%;
+    margin-top: 3%;
+    border-radius: 50px;
+    border: 0ch;
+    background: #ff6378;
+    height: 55px;
+    width: 10rem;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.dashboard input:hover{
+    background: #C30047;
+    cursor: pointer;
+}
+
+                                                                /* CauseText-Banner */
+
+.cause-text{
+    margin-top: 13%;
+}
+.cause-text h1{
+    text-align: center;
+    font-size: 50px;
+    color: #301a22;
+}
+
+                                                             /* Charity-Blocks*/
+
+.charity-system-main{
+    display: flex;
+    margin-top: 5%;
+}
+.charity-img-1{
+    margin: 0 3% 0 10%;
+}
+.charity-img-2{
+    margin: 0 3% 0 0;
+}
+.charity-img-1 img,.charity-img-2 img,.charity-img-3 img{
+    height: 220px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.charity-system-main .main-text{
+    margin: 3% 0 0 3%;
+}
+.charity-system-main .main-text a{
+    text-decoration: none;
+    color: #301a22;
+    font-size: 28px;
+}
+.charity-system-main .main-text a:hover{
+    color: #ff6378;
+}
+.charity-system-main .small-text{
+    color: #6A6063;
+    font-size: 17px;
+    margin: 7% 0 0 3%;
+    font-weight: lighter;
+    line-height: 23px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+.charity-system-main input{
+    background: #C30047;
+    border-radius: 50px;
+    border: 0ch;
+    height: 40px;
+    width: 7rem;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 7% 0 0 3%;
+    cursor: pointer;
+}
+.charity-system-main .goal-price,.goal-text,.raised-price,.raised-text{
+    color: black;
+    position: absolute;
+}
+.charity-system-main .goal-price{
+    margin:-50px 0 0 10%;
+    font-size: 18px;
+    color: #C30047;
+    font-weight: bold;
+}
+.charity-system-main .goal-text{
+    margin: -20px 0 0 10%;
+    font-size: 18px;
+    color: #301a22;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.charity-system-main .raised-price{
+    margin:-50px 0 0 17%;
+    font-size: 18px;
+    color: #C30047;
+    font-weight: bold;
+}
+.charity-system-main .raised-text{
+    margin: -20px 0 0 17%;
+    font-size: 18px;
+    color: #301a22;
+    font-weight: lighter;
+}
+.charity-img-1,.charity-img-2,.charity-img-3{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    height: 450px;
+}
+
+                                                        /* Support-Dashboard */
+
+.support-dash{
+    margin: 20% 0 0 10%;
+    display: flex;
+}
+.support-dash img{
+    height: 500px;
+}
+.support-text{
+    margin: 5% 0 0 10%;
+}
+.support-text h1{
+    font-size: 50px;
+    color: #301a22;
+}
+.support-text .support-text-1{
+    font-size: 18px;
+    text-align: justify;
+    color: #301a22;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-top: 3%;
+    width: 73%;
+}
+.support-text .support-text-2{
+    font-size: 18px;
+    text-align: justify;
+    color: #4f3840;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-top: 3%;
+    width: 73%;
+}
+.support-text input{
+    height: 55px;
+    width: 9rem;
+    border-radius: 50px;
+    border: 0ch;
+    background: #C30047;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+                                                            /* Serve-text */
+
+.serve-text{
+    margin: 5% 0 0 0;
+    text-align: center;
+}
+.serve-text h1{
+    font-size: 50px;
+    color: #301a22;
+}
+.serve-text p{
+    color: rgb(106, 96, 99);
+    text-align: center;
+    margin-top: 2%;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+                                                /* Health-Care-Dashboard */
+
+.health-care{
+    display: flex;
+    margin: 5% 0 0 10%;
+    width: 92%;
+}
+.food-care img,.medicine-care img,.education-care img{
+    margin:0 0 15% 20%;
+}
+.health-care a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(48, 26, 34);
+    margin-left: -40%;
+}
+.health-care a:hover{
+    color: #C30047;
+}
+.health-care p{
+    color: rgb(106, 96, 99);    
+    width: 60%;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 7%;
+}
+.education-care a{
+    margin-left: -26%;
+}
+
+                                                    /* Need-Help-Dashbard */
+
+.need-help{
+    margin-top: 10%;
+}
+.need-help img{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+}
+.need-help-sub{
+    position: absolute;
+    height: 500px;
+    width: 37%;
+    border-radius: 10px;
+    background: white;
+    margin: 7% 0 0 55%;
+}
+.need-help-sub a{
+    position: absolute;
+    color: #301a22;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 11% 0 0 10%;
+    width: 90%;
+}
+.need-help-sub a:hover{
+    color: #C30047;
+}
+.need-help-sub p{
+    color: #301A22;
+    margin: 40% 0 0 10%;
+    font-size: 18px;
+    width: 80%;
+    line-height: 1.4;
+}
+.need-help-sub input{
+    height: 55px;
+    width: 11rem;
+    border-radius: 50px;
+    border: 0ch;
+    background: #C30047;
+    color: white;
+    margin: 5% 0 0 10%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+                                                    /* Join-Dashboard */
+
+.join-with-us{
+    display: flex;
+    margin-top: 60%;
+}
+.join-text h1{
+    color: #301a22;
+    font-size: 50px;
+    margin: 4% 0 0 10%;
+}
+.join-text p{
+    width: 30%;
+    color: #301A22;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
+    margin: 4% 0 0 10%;
+}
+.join-text input{
+    height: 55px;
+    width: 9rem;
+    margin: 4% 0 0 10%;
+    background: #C30047;
+    color: white;
+    font-size: 14px;
+    border: 0ch;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.join-with-us .join-img-1{
+    margin-left: -43%;
+}
+.join-with-us .join-img-2{
+    margin-left: 2%;
+}
+
+                                                    /* Footer */
+
+.footer-main{
+    display: flex;
+    margin-top: 8%;
+    height: 400px;
+    width: 100%;
+    background: rgb(39, 27, 40);
+}
+
+                                                    /* Footer-sub-1 */
+
+.footer-main .footer-sub-1{
+    margin: 5% 0 0 8%;
+}
+.footer-main .footer-sub-1 p{
+    width: 40%;
+    margin-top: 3%;
+    line-height: 1.8;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.footer-sub-icon{
+    margin-top: 3%;
+}
+.footer-sub-icon ul{
+    display: flex;
+    list-style: none;
+}
+.footer-sub-icon ul li{
+    padding-right: 24px;
+    color: white;
+    font-size: 20px;
+}
+.footer-sub-icon ul li i:hover{
+    transform: rotateY(180deg);
+    transition: all 0.9s;
+    color: #C30047;
+    cursor: pointer;
+}
+
+                                                    /* Footer-sub-2 */
+
+.footer-sub-2{
+    margin: 5% 0 0 -25%;
+}
+.footer-sub-2 .footer-heading,.footer-sub-3 .footer-heading,.footer-sub-4 .footer-heading{
+    font-size: 22px;
+    font-weight: 900;
+}
+.footer-sub-2-list{
+    margin-top: 25%;
+}
+.footer-sub-2-list ul{
+    list-style: none;
+}
+.footer-sub-2-list ul li{
+    margin-bottom: 20%;
+}
+.footer-sub-2-list ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: white;
+}
+.footer-sub-2-list ul li a:hover{
+    border-bottom: 1px solid white;
+    transition: all 2s;
+}
+.footer-sub-3{
+    margin: 5% 0 0 8%;
+}
+.footer-sub-4{
+    margin: 5% 0 0 8%;
+}
+.footer-sub-4 .text{
+    width: 78%;
+    margin-top: 5%;
+    letter-spacing: 1px;
+}
+.footer-sub-4 input{
+    margin-top: 5%;
+    border-radius: 50px;
+    border: 1px dotted white;
+    height: 50px;
+    width: 22rem;
+    background: transparent;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+.footer-sub-4 button{
+    border-radius: 50px;
+    border: 0cm;
+    height: 50px;
+    width: 5rem;
+    background: #C30047;
+    margin-left: -14%;
+    cursor: pointer;
+}
+.footer-sub-4 button i{
+    color: white;
+    font-size: 18px;
+}
+
+                                                    /* Copyright Footer */
+
+.last-footer{
+    height: 50px;
+    background: rgb(39, 27, 40);
+    display: flex;
+}
+.last-footer p{
+    line-height: 35px;
+    margin-left: 40%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.last-footer i{
+    position: fixed;
+    bottom: 10px;
+    margin: 0px 0 0 95%;
+    border-radius: 50px;
+    background: #C30047;
+    height: 50px;
+    width: 50px;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+}

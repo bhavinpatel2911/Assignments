@@ -1,0 +1,299 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+
+                                                    /* Main-Navigation */
+
+    .main-nav-logo img{
+    margin-left: 3%;
+    margin-top: 2%;
+    }
+    .main-nav-option{
+    margin-top: -2px;
+    }
+    .main-nav-option ul li a{
+    font-size: 18px;
+    }
+    .main-nav-option ul li a input{
+    margin-top: -10px;
+    height: 30px;
+    width: 6rem;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+                                                        /* Dashboard */
+
+    .dashboard img{
+    height: 400px;
+    }
+    .dashboard h1{
+    font-size: 30px;
+    }
+    .dashboard p{
+    font-size: 14px;
+    width: 50%;
+    height: 40px;
+    line-height: 18px;
+    overflow: hidden;
+    }
+    .dashboard input{
+    height: 30px;
+    width: 6rem;
+    font-size: 12px;
+    font-weight: bold;
+    }
+
+                                                        /* CauseText-Banner */
+
+    .cause-text{
+    margin-top: 18%;
+    }
+    .cause-text h1{
+    font-size: 30px;
+    }
+
+                                                        /* Charity-Blocks */
+
+    .charity-system-main{
+    display: flex;
+    margin-top: 10%;
+    }
+    .charity-img-1 img,.charity-img-2 img,.charity-img-3 img{
+    height: 150px;
+    width: 100%;
+    }
+    .charity-img-1,.charity-img-2,.charity-img-3{
+    margin: 0 0 10% 20px;
+    height: 325px;
+    width: 30%;
+    }
+    .charity-system-main .main-text a{
+    font-size: 22px;
+    }
+    .charity-system-main .small-text{
+    font-size: 12px;
+    line-height: 15px;
+    }
+    .charity-system-main input{
+    height: 20px;
+    width: 4rem;
+    font-size: 10px;
+    }
+    .charity-system-main .goal-price{
+    margin:-25px 0 0 13%;
+    font-size: 12px;
+    }
+    .charity-system-main .goal-text{
+    margin: -10px 0 0 13%;
+    font-size: 12px;
+    }
+    .charity-system-main .raised-price{
+    margin:-25px 0 0 24%;
+    font-size: 12px;
+    }
+    .charity-system-main .raised-text{
+    margin: -10px 0 0 24%;
+    font-size: 12px;
+    }
+
+                                                    /* Support-Dashboard */
+
+    .support-dash{
+    display: flex;
+    margin-top: 0%;
+    }
+    .support-dash img{
+    height: 250px;
+    }
+    .support-text h1{
+    font-size: 30px;
+    }
+    .support-text{
+    margin: 1% 0 0 8%;
+    }
+    .support-text .support-text-1{
+    font-size: 14px;
+    line-height: 1.4;
+    width: 75%;
+    }
+    .support-text .support-text-2{
+    font-size: 12px;
+    line-height: 1.4;
+    width: 75%;
+    }
+    .support-text input{
+    height: 30px;
+    width: 6rem;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    }
+                                                        /* Serve-text */
+    .serve-text h1{
+    font-size: 30px;
+    }
+    .serve-text p{
+    font-size: 14px;
+    }  
+
+                                                        /* Health-Care-Dashboard */
+
+    .health-care{
+        margin: 5% 0 0 8%;
+        width: 90%;
+    }
+    .food-care img,.medicine-care img,.education-care img{
+        margin:0 0 10% 30%;
+        height: 70px;
+    }
+    .health-care a{
+        font-size: 22px;
+        margin-left: -50%;
+    }
+    .health-care p{
+        width: 60%;
+        line-height: 1.2;
+        font-size: 14px;
+        margin: 7% 0 10% 15%;
+    }
+    .education-care a{
+        margin-left: -37%;
+    }
+
+                                                    /* Need-Help-Dashboard */
+
+    .need-help img{
+        height: 400px;
+    }
+    .need-help-sub{
+        height: 340px;
+        width: 45%;
+        margin: 4% 0 0 50%;
+    }
+    .need-help-sub a{
+        font-size: 30px;
+        padding: 15% 0 0 11%;
+        width: 100%;
+    }
+    .need-help-sub p{
+        margin: 35% 0 0 9%;
+        font-size: 14px;
+        width: 85%;
+        line-height: 1.4;
+    }
+    .need-help-sub input{
+        height: 40px;
+        width: 9rem;
+        margin: 9% 0 0 10%;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+                                                    /* Join-Dashboard */
+
+    .join-with-us{
+        width: 100%;
+        position: absolute;
+    }
+    .join-text h1{
+        font-size: 30px;
+        margin: 0 0 0 9%;
+    }
+    .join-text p{
+        width: 20%;
+        font-size: 14px;
+        line-height: 1.2;
+        margin: 4% 0 0 9%;
+    }
+    .join-text input{
+        height: 30px;
+        width: 6rem;
+        margin: 4% 0 0 9%;
+        font-size: 12px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .join-with-us .join-img-1 img{
+        height: 250px;
+        width: 90%;
+        margin: 0 0 0 -45%;
+    }
+    .join-with-us .join-img-2 img{
+        margin: 0 0 0 -103%;
+        height: 250px;
+        width: 150%;
+    }
+
+                                                            /* Footer */
+
+    .footer-main{
+        display: inline-block;
+        height: 850px;
+        margin-top: 95%;
+    }
+    .footer-main .footer-sub-1{
+        margin: 10% 0 0 10%;
+    }
+    .footer-sub-1 img{
+        height: 35px;
+    }
+    .footer-main .footer-sub-1 p{
+        width: 90%;
+        font-size: 16px;
+    }
+    .footer-sub-icon ul li{
+        font-size: 16px;
+    }
+    .footer-sub-2{
+        margin: 5% 0 0 10%;
+    }
+    .footer-sub-2 .footer-heading,.footer-sub-3 .footer-heading,.footer-sub-4 .footer-heading{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .footer-sub-2-list{
+        margin-top: 5%;
+    }
+    .footer-sub-2-list ul li{
+        margin-bottom: 1%;
+    }
+    .footer-sub-2-list ul li a{
+        font-size: 16px;
+    }
+    .footer-sub-3{
+        margin: 5% 0 0 10%;
+    }
+    .footer-sub-4{
+        margin: 5% 0 0 10%;
+    }
+    .footer-sub-4 .text{
+        width: 85%;
+        font-size: 16px;
+    }
+    .footer-sub-4 input{
+        height: 30px;
+        width: 15rem;
+        font-size: 14px;
+    }
+    .footer-sub-4 button{
+        height: 31px;
+        width: 2rem;
+        margin-left: -5%;
+    }
+    .footer-sub-4 button i{
+        font-size: 14px;
+        padding: 10% 15%;
+    }
+    .last-footer{
+        height: 50px;
+        background: rgb(39, 27, 40);
+        margin: 0% 0 0 -50%;
+    }
+    .last-footer p{
+        font-size: 16px;
+        margin-left: 55%
+    }
+    .last-footer i{
+        margin: 0% 0 0 142%;
+    }
+} 
