@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 745px;
+    width: 50%;
+    overflow: hidden;
+    margin: 0 0 0 25%;
+}
+.main h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30px;
+}
+.input-fields{
+    margin: 2.5% 0 0 8%;
+}
+.input-fields label{
+    font-size: 18px;
+}
+.input-fields input{
+    height: 40px;
+    width: 95%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.input-fields .btn{
+    padding: 10px 20px;
+    background: #C30047;
+    cursor: pointer;
+    border: 0ch;
+    font-size: 14px;
+    color: white;
+}
+.input-fields .btn:hover{
+    background: #920136;
+    color: whitesmoke;
+    font-weight: 900;
+}
+span{
+    color: red;
+    font-weight: bold;
+    margin-left: 9%;
+}
