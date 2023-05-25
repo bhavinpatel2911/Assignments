@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dashboard{
+    height: 100vh;
+    width: 100%;
+}
+.dashboard img{
+    height: 100vh;
+    width: 100%;
+    filter: blur(1px);
+}
+.dashboard .sidebar{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 20%;
+    background-color: gray;
+    opacity: 0.7;
+}
+.dashboard .dreamplus{
+    position: absolute;
+    top: 0;
+    margin: 8% 0 0 5%;
+    width: 10%;
+    text-align: center;
+    border: 1px solid white;
+    outline: 1px solid white;
+    outline-offset: 5px;
+}
+.dashboard .dreamplus p{
+    color: white;
+    font-size: 32px;
+}
+.dashboard .menus{
+    position: absolute;
+    top: 0;
+    margin: 18% 0 0 5%;
+    width: 10%;
+    text-align: center;
+}
+.dashboard .menus ul{
+    list-style: none;
+    line-height: 35px;
+}
+.dashboard .menus ul li a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard .icons{
+    position: absolute;
+    top: 0;
+    margin: 38% 0 0 3%;
+    width: 10%;
+    text-align: center;
+}
+.dashboard .icons ul{
+    display: flex;
+    list-style: none;
+}
+.dashboard .icons ul li{
+    border: 1px solid white;
+    padding: 8px 13px;
+    background-color: white;
+    margin-left: 3%;
+}
+.dashboard .icons ul li i{
+    color: black;
+    font-size: 20px;
+}
+.dashboard .text_content{
+    position: absolute;
+    top: 0;
+    height: 50vh;
+    width: 30%;
+    margin: 12% 0 0 65%;
+    background-color: white;
+    opacity: 0.6;
+    text-align: center;
+}
+.dashboard .text{
+    position: absolute;
+    top: 0;
+    margin: 14% 0 0 67%;
+}
+.dashboard .text .text_heading{
+    color: darkslateblue;
+    font-size: 24px;
+    font-weight: 900;
+}
+.dashboard .content{
+    width: 79%;
+    text-align: justify;
+    margin-top: 5%;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+/* .company_profile{
+    position: absolute;
+} */
+.company_profile .sidebar{
+    position: absolute;
+    height: 215vh;
+    width: 20%;
+    background-color: gray;
+}
+.comapany_abouts{
+    position: absolute;
+    margin: 4% 0 0 25%;
+    height: 50vh;
+    width: 30%;
+} 
+.comapany_abouts i{
+    font-size: 75px;
+    color: darkslateblue;
+}
+.comapany_abouts .text_heading{
+    font-size: 20px;
+    margin-top: 3%;
+    font-weight: bolder;
+    color: darkslateblue;
+}
+.comapany_abouts .content{
+    width: 79%;
+    text-align: justify;
+    margin-top: 5%;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.our_work{
+    height: 60vh;
+    width: 70%;
+    margin: 32% 0 0 25%;
+    /* border: 1px double black; */
+    border: 1px solid black; 
+    outline: 1px solid black;
+    outline-offset: 5px;
+}
+.our_work .work_img{
+    display: flex;
+}
+.our_work .text_heading{
+    font-size: 20px;
+    margin: 2% 0 0 2%;
+    font-weight: bolder;
+    color: darkslateblue;
+}
+.our_work .work_1,.work_2,.work_3,.work_4{
+    width: 25%;
+    margin: 3% 0 0 2%;
+}
+.our_work img{
+    height: 340px;
+    width: 100%;
+}
+.our_clients{
+    position: relative;
+    margin: 4% 0 0 25%;
+}
+.our_clients .text_heading{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkslateblue;
+}
+.our_clients .content{
+    width: 94%;
+    text-align: justify;
+    margin-top: 2%;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.main_talk_us{
+    position: relative;
+    display: flex;
+    margin: 4% 0 0 25%;
+}
+.talk_us{
+    height: 48vh;
+    width: 30%;
+    border: 1px solid black; 
+    outline: 1px solid black;
+    outline-offset: 5px;
+}
+.talk_us .text_heading{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkslateblue;
+    margin: 3% 0 0 4%;
+}
+.talk_us .content{
+    width: 94%;
+    text-align: justify;
+    margin: 2% 0 0 4%;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.main_talk_us .form{
+    height: 48vh;
+    width: 30%;
+    margin-left: 15%;
+}
+.input_field{
+    margin-top: -5%;
+}
+.main_talk_us .form input,textarea{
+    margin: 10% 2% 0 2%;
+    width: 90%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    background: transparent;
+}
+.main_talk_us .form input::placeholder, textarea::placeholder{
+    color: darkslateblue;
+    font-weight: bolder;
+}
