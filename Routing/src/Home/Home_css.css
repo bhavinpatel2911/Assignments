@@ -1,0 +1,32 @@
+.card_style{
+    background-color: #F5F5F5;
+    width: 19rem;
+}
+.card_style:hover{
+    background-color: #94b8b8;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.card_style:hover .card-title,.card_style:hover .card-text{
+    color: white;
+    font-weight: 700;
+}
+.img_style{
+    height: 220px;
+    width: 100%;
+}
+.card_style:hover .img_style{
+    position: absolute;
+    height: 300px;
+    width: 145%;
+    margin-top: 40%;
+}
+.touch_btn{
+    background-color:  #3d5c5c;
+    color: white;
+}
+.card_style:hover .btn{
+    background-color:  #141f1f;
+    color: white;
+    font-weight: 600;
+}
